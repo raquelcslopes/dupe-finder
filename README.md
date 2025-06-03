@@ -1,32 +1,31 @@
 # The Dupe Finder
 
-Este projeto Java identifica e lida com frutas duplicadas em uma lista. Ele oferece funcionalidades para:
+This Java project identifies and handles duplicate fruits in a list. It offers functionalities to:
 
-- Contar o número de duplicatas
-- Listar as frutas duplicadas
-- Ordenar as duplicatas
+- Count the number of duplicates
+- List the duplicate fruits
+- Sort the duplicates
 
-## Estrutura do Projeto
+## Project Structure
 
-- `Fruit.java`: Classe base para frutas.
-- `Apple.java` e `Orange.java`: Implementações específicas de frutas.
-- `DupeFinder.java`: Lógica principal para encontrar duplicatas.
-- `Main.java`: Classe principal para execução do programa.
+- `Fruit.java`: Base class for fruits.
+- `Apple.java` and `Orange.java`: Specific fruit implementations.
+- `DupeFinder.java`: Main logic for finding duplicates.
+- `Main.java`: Main class to run the program.
 
-## Como Executar
+## How to Run
 
-1. Compile todos os arquivos Java:
+1. Compile all Java files:
    ```sh
    javac src/*.java
    ```
-2. Execute a classe principal:
+2. Run the main class:
    ```sh
    java -cp src Main
    ```
 
-## Requisitos
-- Java 8 ou superior
+## Requirements
+- Java 8 or higher
 
-## Autor
-Projeto criado para fins de demonstração e aprendizado.
-
+## Author
+Project created for demonstration and learning purposes.
